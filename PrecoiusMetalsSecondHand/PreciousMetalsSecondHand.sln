@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreciousMetalsSecondHand", "PreciousMetalsSecondHand\PreciousMetalsSecondHand.csproj", "{5DDE0370-C195-4B43-BBA3-5CA7DE0D6FAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreciousMetalsSecondHand.Data", "PreciousMetalsSecondHand.Data\PreciousMetalsSecondHand.Data.csproj", "{E3AF7527-7E09-4D7B-953C-3DF026C39232}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DDE0370-C195-4B43-BBA3-5CA7DE0D6FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDE0370-C195-4B43-BBA3-5CA7DE0D6FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDE0370-C195-4B43-BBA3-5CA7DE0D6FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDE0370-C195-4B43-BBA3-5CA7DE0D6FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3AF7527-7E09-4D7B-953C-3DF026C39232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3AF7527-7E09-4D7B-953C-3DF026C39232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3AF7527-7E09-4D7B-953C-3DF026C39232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3AF7527-7E09-4D7B-953C-3DF026C39232}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60D50701-365C-4F2D-9E8B-D532E9DBBBF1}
+	EndGlobalSection
+EndGlobal
