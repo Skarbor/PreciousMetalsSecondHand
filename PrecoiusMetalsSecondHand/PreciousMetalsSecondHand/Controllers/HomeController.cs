@@ -3,20 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using PrecoiusMetalsSecondHand.Data.Concrete;
+using PreciousMetalsSecondHand.Data.Concrete;
 
-namespace PrecoiusMetalsSecondHand.Controllers
+namespace PreciousMetalsSecondHand.Controllers
 {
     public class HomeController : Controller
     {
-        private ApplicationRepository applicationRepository;
+        private OrdersRepository _ordersRepository;
         public HomeController()
         {
-            applicationRepository = new ApplicationRepository();
+            _ordersRepository = new OrdersRepository();
         }
         public IActionResult Index()
         {
-            var orders = applicationRepository.GetAll();
+            var orders = _ordersRepository.GetAll();
             return View(orders);
         }
     }

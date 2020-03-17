@@ -1,11 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using PrecoiusMetalsSecondHand.Data.Entities;
+using PreciousMetalsSecondHand.Data.Entities;
 
-namespace PrecoiusMetalsSecondHand.Data.Context
+namespace PreciousMetalsSecondHand.Data.Context
 {
     class ApplicationContext : DbContext
     {
         public DbSet<Order> Orders { get; set; }
+        public DbSet<Product> Products { get; set; }
 
         public ApplicationContext()
         {
