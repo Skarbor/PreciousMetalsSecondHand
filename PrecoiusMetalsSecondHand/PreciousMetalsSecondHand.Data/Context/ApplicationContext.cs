@@ -6,7 +6,7 @@ namespace PreciousMetalsSecondHand.Data.Context
     class ApplicationContext : DbContext
     {
         public DbSet<Order> Orders { get; set; }
-        public DbSet<Product> Products { get; set; }
+        public DbSet<ProductType> Products { get; set; }
 
         public ApplicationContext()
         {
