@@ -10,7 +10,6 @@ namespace PreciousMetalsSecondHand.Data.Entities
         public string Name { get; set; }
         public Ore Ore { get; set; }
         public Category Category { get; set; }
-        public string ImagePath { get; set; }
         public string Description { get; set; }
     }
 }

@@ -6,6 +6,8 @@ namespace PreciousMetalsSecondHand.Data.Entities
     {
         public int Id { get; set; }
         public int ProductTypeId { get; set; }
+        public OrderType Type { get; set; }
+        public string Location { get; set; }
         public decimal Price { get; set; }
         public DateTime CreatedDate { get; set; }
         public string Description { get; set; }

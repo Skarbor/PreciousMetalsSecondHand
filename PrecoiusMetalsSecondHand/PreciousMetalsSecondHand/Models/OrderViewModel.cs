@@ -1,10 +1,13 @@
 ﻿using System;
 using PreciousMetalsSecondHand.Data.Entities;
+using static PreciousMetalsSecondHand.Data.Entities.OrderType;
 
 namespace PreciousMetalsSecondHand.Models
 {
     public class OrderViewModel
     {
+        public string OrderType { get; set; }
+        public string Location { get; set; }
         public string ProductName { get; set; }
         public string ProductImagePath { get; set; }
         public string ProductDescription { get; set; }
@@ -15,8 +18,12 @@ namespace PreciousMetalsSecondHand.Models
 
         public OrderViewModel(Order order, ProductType productType)
         {
+            if (order.Type == Sell) OrderType = "Sell";
+            if (order.Type == Buy) OrderType = "Buy";
+
+            Location = order.Location;
             ProductName = productType.Name;
-            ProductImagePath = productType.ImagePath;
+            //ProductImagePath = productType.ImagePath;
             ProductDescription = productType.Description;
             Price = order.Price;
             PurchaserPhoneNumber = order.PurchaserPhoneNumber;
