@@ -7,4 +7,8 @@ import { HttpClient } from '@angular/common/http';
 export class OrdersService {
 
   constructor(private http: HttpClient) { }
+
+  getOrders() {
+    return null;
+  }
 }

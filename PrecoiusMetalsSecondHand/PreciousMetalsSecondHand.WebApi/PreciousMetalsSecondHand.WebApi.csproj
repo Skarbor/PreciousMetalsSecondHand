@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Reinforced.Typings" Version="1.5.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PreciousMetalsSecondHand.Data\PreciousMetalsSecondHand.Data.csproj" />
+    <ProjectReference Include="..\PrecoiusMetalsSecondHand.WebApiModels\PreciousMetalsSecondHand.WebApiModels.csproj" />
+  </ItemGroup>
+
+
+</Project>
